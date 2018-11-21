@@ -1,7 +1,7 @@
 ## AE导出工具
 
-*  [(最新)1.0.1121](https://github.com/mr-loney/ae2of_tools/blob/master/archive/ae2of1121.zip?ref=master)  
-*  [1.0.1120](https://github.com/mr-loney/ae2of_tools/blob/master/archive/ae2of1120.zip?ref=master)  
+*  [(最新)1.0.1121](https://github.com/mr-loney/ae2of_tools/blob/master/archive/ae2of1121.zip?raw=true)  
+*  [1.0.1120](https://github.com/mr-loney/ae2of_tools/blob/master/archive/ae2of1120.zip?raw=true)  
 
 <br/>
 
