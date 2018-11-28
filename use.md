@@ -3,7 +3,7 @@
 #### 图层名规则
 | 规则 | 图层名 | 描述 |
 | ------ | ------ | ------ |
-| 等于 | background | 导出图层为视频，并添加到of inputfile中，做为默认播放视频 |
+| 包含 | background | 导出图层为视频，并添加到of inputfile中，做为默认播放视频 |
 | 包含 | _maskAllVideo | 导出图层为视频，并设置到所有图层mask属性中 <font color=#ff00000>（注意：此mask会覆盖_maskVideo）</font> |
 | 包含 | _maskVideo | 导出图层为视频，并设置到同名图层mask属性中，如：<br/>存在图层a、a_maskVideo两个图层，则表示导出a_maskVideo图层为视频，并设置a图层的mask属性为此视频 |
 | 包含 | _maskSVGA(开发中) | 导出图层为svga格式，并设置到同名图层mask属性中<font color=#ff00000>（仅支持形状图层）</font> |
@@ -29,3 +29,7 @@
 ![use7.png](https://github.com/mr-loney/ae2of_tools/raw/master/readme_img/use7.png "use7")<br/>
 在of_design工具中，点击运行即可看到AE中素材导出的效果<br/>
 ![use8.png](https://github.com/mr-loney/ae2of_tools/raw/master/readme_img/use8.png "use8")<br/>
+
+## 异常情况
+Q：提示运行失败<br/>
+A：运行工具目录下vbs.reg文件，弹出注册表插入提示，点击允许后，再重新运行导出工具
