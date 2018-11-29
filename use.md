@@ -4,10 +4,11 @@
 | 规则 | 图层名 | 描述 |
 | ------ | ------ | ------ |
 | 包含 | background | 导出图层为视频，并添加到of inputfile中，做为默认播放视频 |
-| 包含 | _maskAllVideo | 导出图层为视频，并设置到所有图层mask属性中 <font color=#ff00000>（注意：此mask会覆盖_maskVideo）</font> |
+| 包含 | maskall_Video | 导出图层为视频，并设置到所有图层mask属性中 <font color=#ff00000>（注意：此mask会覆盖_mask）</font> |
+| 包含 | maskall_SVGA | 导出图层为SVGA，并设置到所有图层mask属性中 <font color=#ff00000>（注意：此mask会覆盖_mask）</font> |
 | 包含 | _maskVideo | 导出图层为视频，并设置到同名图层mask属性中，如：<br/>存在图层a、a_maskVideo两个图层，则表示导出a_maskVideo图层为视频，并设置a图层的mask属性为此视频 |
-| 包含 | _maskSVGA(开发中) | 导出图层为svga格式，并设置到同名图层mask属性中<font color=#ff00000>（仅支持形状图层）</font> |
-| 包含 | _svga(开发中) | 导出图层为svga格式 |
+| 包含 | _maskSVGA | 导出图层为SVGA，并设置到同名图层mask属性中，如：<br/>存在图层a、a_maskSVGA两个图层，则表示导出a_maskSVGA图层为视频，并设置a图层的mask属性为此视频 |
+| 包含 | _SVGA | 导出图层为SVGA格式，可多个同名图层导出为同一个svga素材 |
 
 
 #### 从Adobe After Effects导出
