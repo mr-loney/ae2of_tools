@@ -7,6 +7,7 @@
 | 包含 | maskall_Video | 导出图层为视频，并设置到所有图层mask属性中 <font color=#ff00000>（注意：此mask会覆盖_mask）</font> |
 | 包含 | maskall_SVGA | 导出图层为SVGA，并设置到所有图层mask属性中 <font color=#ff00000>（注意：此mask会覆盖_mask）</font> |
 | 包含 | _maskVideo | 导出图层为视频，并设置到同名图层mask属性中，如：<br/>存在图层a、a_maskVideo两个图层，则表示导出a_maskVideo图层为视频，并设置a图层的mask属性为此视频 |
+| 包含 | _maskImage | 导出图层为图片，与同名图层做mask，如：<br/>存在图层a、a_maskImage两个图层，则表示导出a_maskImage图层为图片，名字为a_mask.png |
 | 包含 | _maskSVGA | 导出图层为SVGA，并设置到同名图层mask属性中，如：<br/>存在图层a、a_maskSVGA两个图层，则表示导出a_maskSVGA图层为视频，并设置a图层的mask属性为此视频 |
 | 包含 | _SVGA | 导出图层为SVGA格式，可多个同名图层导出为同一个svga素材 |
 
